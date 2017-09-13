@@ -19,6 +19,6 @@ Static Apex Code Check, Review and analysis
 * Now go to path and there should be a file codereview.html in scan folder with results
 
 ## Links
-https://pmd.github.io/pmd-5.5.2/pmd-apex/rules/index.html
-http://www.jitendrazaa.com/blog/salesforce/automated-code-review-for-apex-in-salesforce-static-code-analysis-video/
+* https://pmd.github.io/pmd-5.5.2/pmd-apex/rules/index.html
+* http://www.jitendrazaa.com/blog/salesforce/automated-code-review-for-apex-in-salesforce-static-code-analysis-video/
 
