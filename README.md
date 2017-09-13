@@ -3,7 +3,7 @@ Static Apex Code Check, Review and analysis
 
 ## Prerequisites and Steps
 * Linux based OS- I am using ubuntu.
-* Install ant (Latest version)
+* Install [ant (Latest version)](https://howtoprogram.xyz/2016/10/14/install-apache-ant-ubuntu-16-04-lts-xenial-xerus/)
 * Download the [latest version](https://help.github.com/articles/basic-writing-and-formatting-syntax/)- it would be a zip file
 * Extract that zip file- it will make a folder with name of PMD Zip file
 * Open terminal and change your directory to that PMD folder
