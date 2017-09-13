@@ -10,7 +10,9 @@ Static Apex Code Check, Review and analysis
 * Create a folder ‘scan’- you can manage your own - I just created to keep my stuffs in different folders. You just need to adjust the path in below given script while executing the script
 * Download all XML files from [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/). Actually these are defined Rulesets for each type of code check. For example, performance.xml will check the performance issues in the apex code like SOQL/DMLs inside loop.
 * Run the below given script. 
-     - ./bin/run.sh pmd -d "./scan/ap_code/classes" -f html -R "./scan/security.xml,./scan/performance.xml,./scan/apexunit.xml"      - reportfile "./scan/codereview.html" -language apex
+     ~~~
+     ./bin/run.sh pmd -d "./scan/ap_code/classes" -f html -R "./scan/security.xml,./scan/performance.xml,./scan/apexunit.xml"   - reportfile "./scan/codereview.html" -language apex
+     ~~~
      - "./scan/ap_code/classes"     is directory path of folder where all apex code is.
      - "./scan/security.xml,./scan/performance.xml,./scan/apexunit.xml"    is comma separated paths of rulesets that we are going to execute
      - ./scan/codereview.html"   is direcoty path and name of file in which you are going to store the result of code scan.
